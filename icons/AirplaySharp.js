@@ -1,0 +1,4 @@
+import React from 'react';
+import createSvg from './utils/createSvg';
+
+export default createSvg(<path d="M0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0zm6 22h12l-6-6-6 6zM23 3H1v16h6v-2H3V5h18v12h-4v2h6V3z" />, 'AirplaySharp', '0 0 24 24');
