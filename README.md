@@ -1,2 +1,3 @@
 # md-react-icons
-Material design icons as SVGs for React, with ZERO dependencies
+
+Material design icons as React SVG Components, with ZERO dependencies
