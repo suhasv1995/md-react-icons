@@ -2,8 +2,8 @@
   "name": "md-react-icons",
   "version": "1.0.0",
   "description": "Material design icons as SVGs for React, with ZERO dependencies",
-  "main": "index.js",
   "scripts": {
+    "build": "babel icons --out-dir dist --verbose && node postBuild.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/suhasv1995/md-react-icons/issues"
   },
-  "homepage": "https://github.com/suhasv1995/md-react-icons#readme"
+  "homepage": "https://github.com/suhasv1995/md-react-icons#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "prop-types": "*"
+  }
 }
